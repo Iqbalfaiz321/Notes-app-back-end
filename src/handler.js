@@ -28,7 +28,7 @@ const addNote = (request, h) =>{
     // return response;
     if(isSucces){
         const response = h.response({
-            status: "fail",
+            status: "success",
             message: "catatan berhasil ditambahkan ",
             data: {
                 noteId: id,
